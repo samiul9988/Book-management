@@ -3,13 +3,13 @@
     <ul class="metismenu" id="menu">
         <li class="nav-label first">Main Menu</li>
             <li>
-                <a class="" href="javascript:void()" aria-expanded="false">
+                <a class="" href="{{route('dashboardadmin')}}" aria-expanded="false">
                     <i class="flaticon-144-layout"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
             </li>
         <li>
-            <a class="" href="javascript:void()" aria-expanded="false">
+            <a class="" href="{{route('managebook')}}" aria-expanded="false">
                 <i class="flaticon-144-layout"></i>
                 <span class="nav-text">Manage book</span>
             </a>
@@ -41,7 +41,7 @@
                 <span class="nav-text">Manage Account</span>
             </a>
         </li><li>
-            <a class="" href="javascript:void()" aria-expanded="false">
+            <a class="" href="{{route('logout')}}" aria-expanded="false">
                 <i class="flaticon-144-layout"></i>
                 <span class="nav-text">Logout</span>
             </a>
